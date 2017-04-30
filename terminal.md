@@ -1,12 +1,4 @@
-`cd` to move around
-
-
-1. Basic terminal navigation, `cd, ls, pwd`
-2. Basic git .gitignore
-3. 
-
-`cd ~/My Documents/projects/myfirstwebsite`
-To start the virtual machine, `vagrant up`
+`cd ~/"My Documents"/projects/myfirstwebsite/web`
 
 Login to Server
 ssh jamie@138.68.177.154
@@ -18,4 +10,6 @@ scp or rsync, web directory to server document root
 or git pull on server to pull 
 
 
-ssh jamie@138.68.177.154 && cd myfirstwebsite && git pull
+ssh jamie@138.68.177.154 "cd /var/www/html" && git pull"
+
+sftp -t jamie@138.68.177.154 'cd /var/www/html && exec bash -l'
