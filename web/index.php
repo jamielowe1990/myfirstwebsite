@@ -47,6 +47,7 @@ HTML;
   <title>Jamie Lowe</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -240,7 +241,7 @@ HTML;
           <div id="intro">
               <p class="text-center">From time to time, I attempt to take a decent photo or two... Here's a few shots taken on recent outings</p>
           </div>
-          <div class="row" id="instafeed"></div>
+          <div class="row text-center" id="instafeed"></div>
           <div>
               <form method="post" action="index.php">
                   <input type="submit" id="view" name="view" value="View Gallery" class="btn btn-primary">
